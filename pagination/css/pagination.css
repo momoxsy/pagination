@@ -1,0 +1,42 @@
+.hide{
+	display: none;
+}
+.pagination{
+	margin: 10px auto;
+	overflow: hidden;
+	padding: 0;
+}
+.pagination > ul{
+    display: inline-block;
+    float: left;
+}
+.pagination > ul > li{
+	float: left;
+	list-style: none;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	margin: 0 4px;
+	cursor: pointer;
+}
+.pagination > ul > span{
+	float: left;
+	padding: 2px 5px;
+}
+.pagination > ul > li:hover{
+	background-color: #ff881b;
+}
+.pagination .disabled{
+	cursor: not-allowed;
+}
+.pagination > ul > li.active{
+	background-color: #ff881b;
+	color: white;
+}
+.pagination > span{
+    display: inline-block;
+    float: left;
+    padding: 5px 10px;
+}
+.pagination > span > input{
+    width: 30px;
+}

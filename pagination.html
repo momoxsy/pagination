@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>pagination</title>
+  <link type="text/css" rel="stylesheet" href="pagination/css/pagination.css"/>
+ </head>
+ <body>
+	<div class="pagination sss">
+	</div>
+ </body>
+	<script src='jq.js'></script>
+	<script src='pagination/js/pagination.js'></script>
+ <script type="text/javascript">
+	function alertFun(num) {
+		
+		alert(num);
+	
+	}
+	var settings = {
+			count: 300,
+			clickFun: alertFun,
+			$elem: $('.sss')
+		},
+		p = new Pagination(settings);
+	
+	p.init();
+ </script>
+ </html>
